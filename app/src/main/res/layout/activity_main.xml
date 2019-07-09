@@ -8,23 +8,28 @@
 
     <Button
         android:id="@+id/spinBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/spin"
         android:layout_marginBottom="15dp"
-        />
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/spin"
+        android:textColor="#fff"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/resultTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        android:textSize="32sp"
         android:layout_centerHorizontal="true"
-        android:text=""/>
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:text="36 black" />
 
     <ImageView
         android:id="@+id/wheel"
