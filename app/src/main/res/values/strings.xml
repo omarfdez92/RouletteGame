@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RouletteGame</string>
+    <string name="spin">SPIN</string>
 </resources>
